@@ -6,9 +6,6 @@ Created on Thu May 21 11:13:34 2020
 """
 import numpy as np
 
-var1 = np.array([1, 2, 3, np.nan, 5])
-var2 = np.array([1, np.nan, 3, 4, 5])
-
 def Clean2Array(var1, var2):
     """ removes nans from two arrays maintaining index size """
     if var1.size == var2.size :
